@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slide</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f3f3f3;
+        }
+
+        .slider-wrapper {
+            width: 100%;
+            margin: 20px auto;
+            position: relative;
+        }
+
+        .content {
+            padding: 20px;
+            text-align: center;
+            font-size: 18px;
+            background-color: white;
+            position: relative;
+            z-index: 1;
+            background: rgba(255, 255, 255, 0.9);
+            margin-bottom: 30px;
+        }
+
+        .slider-box {
+            width: 90%;
+            margin: 0 auto;
+            overflow-x: auto; /* Horizontal scrolling */
+            border: 2px solid #ddd;
+            border-radius: 10px;
+            padding: 10px;
+            background-color: #fff;
+            scroll-behavior: smooth;
+        }
+
+        .slider-container {
+            display: flex;
+            justify-content: start;
+            gap: 20px;
+            width: max-content;
+        }
+
+        .slider-item {
+            text-align: center; /* Center-align the images and text */
+        }
+
+        .slider-item img {
+            width: 350px;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        .slider-item p {
+            margin: 10px 0 0;
+            font-size: 14px;
+            color: #555;
+        }
+
+        .slider-box::-webkit-scrollbar {
+            height: 10px;
+            background: #f3f3f3;
+        }
+
+        .slider-box::-webkit-scrollbar-thumb {
+            background: #bbb;
+            border-radius: 10px;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 20px;
+        }
+
+        p {
+            font-size: 16px;
+        }
+        H2{
+            text-align: center;
+            font-size: 30PX;
+            font-weight: bold;
+        }
+        h2:hover{
+            color: green;
+            font-size: 35px;
+        }
+    </style>
+</head>
+<body>
+    <h2>WHY GREEN GROVERS??</h2>
+    <div class="slider-wrapper">
+        <!-- Image Slider Box -->
+        <div class="slider-box">
+            <div class="slider-container">
+                <!-- Each image with its respective description -->
+                <div class="slider-item">
+                    <img src="public/images/a1.webp" alt="Plant 1">
+                    <p>Premium Imported Seeds for Better Germination</p>
+                </div>
+                <div class="slider-item">
+                    <img src="public/images/a2.webp" alt="Plant 2">
+                    <p>Locally sourced Organic Fertilizer & Coco Discs</p>
+                </div>
+                <div class="slider-item">
+                    <img src="public/images/a3.webp" alt="Plant 3">
+                    <p>Easy to grow step-by-step manual with video instructions</p>
+                </div>
+                <div class="slider-item">
+                    <img src="public/images/a4.webp" alt="Plant 4">
+                    <p>Beautiful Gold Foil Packaging</p>
+                </div>
+                <div class="slider-item">
+                    <img src="public/images/a5.webp" alt="Plant 5">
+                    <p>Reusable & Recyclable Pots</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

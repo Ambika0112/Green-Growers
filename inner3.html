@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treasures Dahila Grow Kit</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            display: flex;
+            gap: 20px;
+            padding: 20px;
+        }
+        .image-section {
+            flex: 1;
+        }
+        .image-section img {
+            width: 100%;
+            border-radius: 10px;
+        }
+        .details-section {
+            flex: 2;
+            background: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        .details-section h1 {
+            font-size: 24px;
+            margin-bottom: 10px;
+        }
+        .price {
+            font-size: 20px;
+            color: #4CAF50;
+            margin: 10px 0;
+        }
+        .discount {
+            color: red;
+            text-decoration: line-through;
+            font-size: 16px;
+        }
+        .rating {
+            color: #FFD700;
+            margin: 10px 0;
+        }
+        .quantity-section {
+            margin: 20px 0;
+        }
+        .quantity-section label {
+            font-weight: bold;
+        }
+        .quantity-section input {
+            width: 50px;
+            text-align: center;
+            margin-left: 10px;
+        }
+        .offers {
+            margin: 20px 0;
+            background: #f0f0f0;
+            padding: 15px;
+            border-radius: 5px;
+        }
+        .offer {
+            margin-bottom: 10px;
+        }
+        .offer span {
+            font-weight: bold;
+            color: #FF5722;
+        }
+        .button {
+            display: inline-block;
+            background: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+<!-- inner-card-1 -->
+<div class="container">
+    <!-- Image Section -->
+    <div class="image-section">
+        <img src="/public/images/dahila.jpg" alt="Treasures Dahila Grow Kit">
+    </div>
+
+    <!-- Details Section -->
+    <div class="details-section">
+        <h1>Treasures Dahila Grow Kit</h1>
+        <div class="price">Rs. 599.00</div>
+        <div class="rating">⭐⭐⭐⭐ (30 reviews)</div>
+
+        <div class="quantity-section">
+            <label for="quantity">Quantity:</label>
+            <input type="number" id="quantity" name="quantity" value="1" min="1">
+        </div>
+
+        <div class="offers">
+            <div class="offer">💥 <span>Flat 7% OFF Discount:</span> Use Code <strong>AB750</strong></div>
+            <div class="offer">🎁 <span>Get FREE Toolkit:</span> Use Code <strong>FREETOOLS</strong></div>
+        </div>
+
+        <a href="#" class="button">Add to Cart</a>
+    </div>
+</div>
+
+</body>
+</html>

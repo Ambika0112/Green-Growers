@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap-grid.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <title>Document</title>
+    <style type="text/css">
+        .btn-hover:hover{
+                background-color: green;
+                color: white;
+        } 
+    </style>
+</head>
+<body background="public/images/plnttkit.png">
+    <form style="text-align: center; padding: 100px;" id="login" class="login">
+        <h1 style="font-size: 50px;">Login</h1> 
+        <p>Please enter your E-mail and password:</p> <br>
+        <input type="email" placeholder="E-mail" style="margin-bottom: 15px; padding: 20px; width: 500px;"> <br>
+        <input type="Password" placeholder="Password" style="margin-bottom: 15px;  padding: 20px; width: 500px;"> <br>
+        <button class="btn-hover" style="width: 545px;  padding: 20px;">LOGIN</button>
+        <P>New User ?<a href="#register" id="register">Create an account</a></span></P>
+      </form>
+
+<form style="text-align: center; padding: 100px; margin-top: -150px;" class="register" id="register">
+      <h1>Register</h1>
+      <p>Please fill in the fields below:</p>  
+       <input type="username" placeholder="First name" style="margin-bottom: 15px; padding: 20px; width: 500px;"> <br>
+       <input type="lastname" placeholder="Last name" style="margin-bottom: 15px; padding: 20px; width: 500px;"><br>
+       <input type="e-mail" placeholder="E-mail" style="margin-bottom: 15px; padding: 20px; width: 500px;"> <br>
+       <input type="password" placeholder="Password" style="margin-bottom: 15px; padding: 20px; width: 500px;"> <br>
+       <button class="btn-hover" style="width: 545px;  padding: 20px;">CREATE ACCOUNT</button>
+       <P>Already have an account? <a href="" id="login">login</a></P>
+</form>
+
+
+</body>
+</html>
